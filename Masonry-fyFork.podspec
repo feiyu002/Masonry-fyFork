@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name     = 'Masonry'
-  s.version  = '1.1.0'
+  s.name     = 'Masonry-fyFork'
+  s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.'
   s.homepage = 'https://github.com/cloudkite/Masonry'
-  s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
+  s.author   = { 'feiyu002' => 'pang_fengyue@126.com' }
   s.social_media_url = "http://twitter.com/cloudkite"
 
-  s.source   = { :git => 'https://github.com/cloudkite/Masonry.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/feiyu002/Masonry-fyFork.git', :tag => "v#{s.version}" }
 
   s.description = %{
     Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   EOS
 
   s.source_files = 'Masonry/*.{h,m}'
-
+  s.resource_bundles = {'Masonry-fyFork' => ['Masonry/Resources/PrivacyInfo.xcprivacy']}
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.tvos.frameworks = 'Foundation', 'UIKit'
   s.osx.frameworks = 'Foundation', 'AppKit'
